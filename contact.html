@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Elite Pressure Washing</title>
+    <meta name="description" content="Contact Elite Pressure Washing for a free quote. Call (555) 123-4567 or fill out our online form for fast, professional service.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <span class="logo-icon">💧</span>
+                    <span class="logo-text">Elite Pressure Washing</span>
+                </div>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="tel:555-123-4567" class="nav-phone">📞 (555) 123-4567</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title fade-in">Get Your Free Quote</h1>
+            <p class="page-subtitle fade-in">Fast response • Transparent pricing • No obligation</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper fade-in">
+                    <h2 class="contact-heading">Request a Quote</h2>
+                    <p class="contact-intro">Fill out the form below and we'll get back to you within 24 hours. For immediate service, call us at <a href="tel:555-123-4567" class="inline-phone">(555) 123-4567</a>.</p>
+                    
+                    <form action="https://formspree.io/f/xqelgewb" method="POST" class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="John Smith">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="(555) 123-4567">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="john@example.com">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Needed *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service...</option>
+                                <option value="house-washing">House Washing</option>
+                                <option value="driveway-concrete">Driveway & Concrete Cleaning</option>
+                                <option value="roof-washing">Roof Soft Washing</option>
+                                <option value="fence-deck">Fence & Deck Cleaning</option>
+                                <option value="commercial">Commercial Services</option>
+                                <option value="fleet">Fleet & Equipment Washing</option>
+                                <option value="other">Other / Not Sure</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project. Include property size, specific concerns, or any questions you have."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-large">Send My Quote Request</button>
+                        </div>
+
+                        <p class="form-note">* Required fields. We respect your privacy and will never share your information.</p>
+                    </form>
+
+                    <div class="form-success" id="formSuccess">
+                        <div class="success-icon">✓</div>
+                        <h3>Thank You!</h3>
+                        <p>We've received your quote request and will contact you within 24 hours.</p>
+                    </div>
+                </div>
+
+                <!-- Contact Info Sidebar -->
+                <div class="contact-info-sidebar fade-in">
+                    <div class="contact-card">
+                        <h3 class="contact-card-title">📞 Call or Text</h3>
+                        <a href="tel:555-123-4567" class="contact-card-link">(555) 123-4567</a>
+                        <p class="contact-card-text">Same-day service often available</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3 class="contact-card-title">✉️ Email Us</h3>
+                        <a href="mailto:info@elitepressurewashing.com" class="contact-card-link">info@elitepressurewashing.com</a>
+                        <p class="contact-card-text">We respond within 24 hours</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3 class="contact-card-title">🕐 Business Hours</h3>
+                        <p class="contact-card-hours">
+                            <strong>Monday - Saturday</strong><br>
+                            7:00 AM - 7:00 PM<br><br>
+                            <strong>Sunday</strong><br>
+                            Closed
+                        </p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3 class="contact-card-title">📍 Service Area</h3>
+                        <p class="contact-card-text">
+                            We proudly serve:<br>
+                            • Your City<br>
+                            • Neighboring Town<br>
+                            • Nearby Community<br>
+                            • Surrounding suburbs<br><br>
+                            <em>Call us if you're outside this area—we may still be able to help!</em>
+                        </p>
+                    </div>
+
+                    <div class="contact-card highlight">
+                        <h3 class="contact-card-title">💡 Fast Quote Tips</h3>
+                        <ul class="tips-list">
+                            <li>Mention your property address</li>
+                            <li>Describe the surface(s) to be cleaned</li>
+                            <li>Note any specific problem areas</li>
+                            <li>Let us know your preferred timeframe</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="contact-faq">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item fade-in">
+                    <h3 class="faq-question">How quickly can you provide a quote?</h3>
+                    <p class="faq-answer">Most quotes are provided within 24 hours. For simple projects like driveways or standard house washes, we can often give you a price right over the phone.</p>
+                </div>
+                <div class="faq-item fade-in">
+                    <h3 class="faq-question">Do I need to be home during the service?</h3>
+                    <p class="faq-answer">No! As long as we have access to water and the areas to be cleaned, you don't need to be present. Many customers prefer to be away while we work.</p>
+                </div>
+                <div class="faq-item fade-in">
+                    <h3 class="faq-question">How long does a typical job take?</h3>
+                    <p class="faq-answer">Most residential jobs take 2-4 hours. Larger homes or commercial properties may take longer. We'll give you an estimated timeframe when we provide your quote.</p>
+                </div>
+                <div class="faq-item fade-in">
+                    <h3 class="faq-question">What forms of payment do you accept?</h3>
+                    <p class="faq-answer">We accept cash, checks, and all major credit cards. Payment is due upon completion of the work.</p>
+                </div>
+                <div class="faq-item fade-in">
+                    <h3 class="faq-question">Are you licensed and insured?</h3>
+                    <p class="faq-answer">Yes! We carry comprehensive general liability insurance and worker's compensation. You're fully protected if anything unexpected happens.</p>
+                </div>
+                <div class="faq-item fade-in">
+                    <h3 class="faq-question">What if I'm not satisfied with the results?</h3>
+                    <p class="faq-answer">We guarantee your satisfaction. If you're not happy with any part of our work, we'll fix it immediately at no additional cost. Your happiness is our priority.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content fade-in">
+                <h2 class="cta-title">Still Have Questions?</h2>
+                <p class="cta-subtitle">Give us a call—we're here to help!</p>
+                <div class="cta-buttons">
+                    <a href="tel:555-123-4567" class="btn btn-primary btn-large">📞 Call (555) 123-4567</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <span class="logo-icon">💧</span>
+                        <span class="logo-text">Elite Pressure Washing</span>
+                    </div>
+                    <p class="footer-description">Professional pressure washing services for residential and commercial properties. Serving the local community with pride.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Google">Google</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#house-washing">House Washing</a></li>
+                        <li><a href="services.html#driveway">Driveway Cleaning</a></li>
+                        <li><a href="services.html#roof">Roof Soft Washing</a></li>
+                        <li><a href="services.html#fence-deck">Fence & Deck</a></li>
+                        <li><a href="services.html#commercial">Commercial Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html">Get a Quote</a></li>
+                        <li><a href="#">Service Areas</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Contact</h4>
+                    <ul class="footer-contact">
+                        <li>📞 <a href="tel:555-123-4567">(555) 123-4567</a></li>
+                        <li>✉️ <a href="mailto:info@elitepressurewashing.com">info@elitepressurewashing.com</a></li>
+                        <li>📍 Serving Your City & Surrounding Areas</li>
+                        <li>🕐 Mon-Sat: 7:00 AM - 7:00 PM<br>Sunday: Closed</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Elite Pressure Washing. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
